@@ -1,0 +1,66 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 150px;
+    background-image:linear-gradient(to bottom,#3337F5,#7E80F7,#b2b2c2)
+   
+}
+
+.cabecalho-logo{
+    padding: 20px;
+   
+}
+
+menu{
+  display: flex;
+  padding: 20px;;
+  border: 1px solid slateblue;
+  
+}
+
+menu > a{
+    color: slategray;
+    font-size: larger;
+    margin-left: 20px;
+}
+menu > a:hover{
+    background-color: teal;
+    color: white;
+    height: 20px;
+    
+}
+
+.titulo-corpo{
+    text-align: center;
+    background-color: thistle;
+    margin-top: 50px;
+}
+
+main > p{
+    text-align: justify;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.fundo{
+    display: block;
+    margin: auto;
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(194, 187, 187);
+   margin-top: 50px;
+   text-align: center;
+}
+
+
+footer >h3{
+    padding: 30px;
+}
